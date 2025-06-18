@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Frontend Developer Cooperative Education",
+    "company": "LEXNETIX CO.,LTD",
+    "location": "Chanthaburi, Thailand",
+    "period": "Current",
+    "description": "Leading frontend development team, implementing modern React applications with TypeScript, and establishing coding standards and best practices for enterprise-level applications.",
+    "position": "left",
+    "logoIcon": "/src/assets/img/orb1.gif"
+  },
+  {
+    "title": "EXAMPLE HISTORY",
+    "company": "COPY PAST CO.,LTD",
+    "location": "Bangkok, Thailand",
+    "period": "2023-2024",
+    "description": "Developed responsive web applications using React, Next.js, and Tailwind CSS. Collaborated with design team to implement pixel-perfect UI components and optimize performance.",
+    "position": "right",
+    "logoIcon": "/src/assets/img/orb2.gif"
+  },
+  {
+    "title": "EXAMPLE HISTORY",
+    "company": "COPY PAST CO.,LTD",
+    "location": "Rayong, Thailand",
+    "period": "2022-2023",
+    "description": "Internship program focusing on modern web development technologies. Built several client projects using React, Vue.js, and modern CSS frameworks with agile methodology.",
+    "position": "left",
+    "logoIcon": "/src/assets/img/orb3.gif"
+  },
+  {
+    "title": "EXAMPLE HISTORY",
+    "company": "COPY PAST CO.,LTD",
+    "location": "Pattaya, Thailand",
+    "period": "2021-2022",
+    "description": "Entry-level position working on various web projects. Gained experience in HTML, CSS, JavaScript, and basic React development while contributing to startup ecosystem growth.",
+    "position": "right",
+    "logoIcon": "/src/assets/img/orb4.gif"
+  }
+]
