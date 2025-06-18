@@ -1,6 +1,6 @@
-import Profile3 from "../assets/img/profile3.jpg";
-import OFA from "../assets/img/profileAnimation.gif";
-import ButtonModalCustom from "./ButtonModalCustom";
+import Profile3 from "../../assets/img/profile3.jpg";
+import OFA from "../../assets/img/profileAnimation.gif";
+import ButtonModalCustom from "../ButtonModalCustom";
 
 const HeroProfile = () => {
   return (
@@ -27,7 +27,7 @@ const HeroProfile = () => {
       </div>
 
       {/* Animated Text */}
-      <span className="text-8xl font-bold bg-gradient-to-r from-white via-blue-400 to-purple-400 bg-clip-text text-transparent animate-gradient-x">
+      <span className="text-8xl font-bold animate-gradient-x">
         Alatusz
       </span>
       <span className="text-4xl font-bold bg-gradient-to-r from-white to-blue-500 bg-clip-text text-transparent animate-fade-in-up opacity-0 animation-delay-500">

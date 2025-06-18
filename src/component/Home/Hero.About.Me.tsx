@@ -1,6 +1,6 @@
-import Profile2 from "../assets/img/profile2.jpg";
+import Profile2 from "../../assets/img/profile2.jpg";
 
-import SkillCard from "./SkillCard";
+import SkillCard from "../SkillCard";
 
 const HeroAboutMe = () => {
   return (
@@ -13,13 +13,13 @@ const HeroAboutMe = () => {
           <img
             src={Profile2}
             height={1000}
-            width={572}
+            width={550}
             className="hover:scale-105 transition-transform duration-500 hover:shadow-2xl rounded-4xl"
           />
         </div>
-        <div className="w-[600px] flex flex-col gap-6 animate-slide-in-right opacity-0 animation-delay-1000">
-          <div className="p-4 bg-gray-950/40 text-white  rounded-xl inset-shadow-2xs hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-            <span className="font-semibold text-lg">This is my journey</span>
+        <div className="w-[600px] flex flex-col gap-6 animate-slide-in-right  animation-delay-1000">
+          <div className="journey-card">
+            <span className="font-bold text-lg">This is my journey</span>
             <hr className="my-2 border-gray-400" />
             <div>
               <p className="text-xs p-4">

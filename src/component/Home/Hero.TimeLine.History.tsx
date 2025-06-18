@@ -1,4 +1,4 @@
-import timeline from "../assets/data/timeline.json";
+import timeline from "../../assets/data/timeline.json";
 
 // Types
 type TimelineItemProps = {
@@ -30,7 +30,7 @@ const TimelineItem = ({
             {/* Background Animation */}
             <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-green-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
 
-            <div className="relative z-10">
+            <div className="relative">
               <div className="flex justify-between items-start mb-3">
                 <h3 className="text-lg font-semibold group-hover:text-blue-600 transition-colors duration-200">
                   {title}
@@ -40,17 +40,6 @@ const TimelineItem = ({
                 </span>
               </div>
               <div className="flex items-center gap-2 mb-3 text-white">
-                <svg
-                  className="w-4 h-4 group-hover:text-blue-500 transition-colors duration-200"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-                    clipRule="evenodd"
-                  />
-                </svg>
                 <span className="font-medium group-hover:text-blue-600 transition-colors duration-200">
                   {company}
                 </span>
@@ -72,7 +61,7 @@ const TimelineItem = ({
       {/* Center Timeline */}
       <div className="flex flex-col items-center relative z-10">
         {/* Circle with Logo */}
-        <div className="relative group">
+        <div className="group">
           {/* Pulsing Background */}
           <div className="absolute -inset-2 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full opacity-50 animate-ping-slow"></div>
 
