@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 
 const ThemeSwitcher: React.FC = () => {
-  const [theme, setTheme] = useState<number>(3);
+  const [theme, setTheme] = useState<number>(2);
 
   useEffect(() => {
     document.body.className = "";
     document.body.classList.add(`theme-${theme}`);
   }, [theme]);
 
-  const themeOptions = Array.from({ length: 11 }, (_, i) => i + 1);
+  const themeOptions = Array.from({ length: 6 }, (_, i) => i + 1);
 
   return (
     <div className="grid place-items-center">
