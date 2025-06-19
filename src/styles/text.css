@@ -1,0 +1,118 @@
+/* Header Color Variants */
+.text-header-gradient-blue {
+  font-size: 60px;
+  font-weight: bold;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #3b82f6, #93c5fd);
+}
+
+.text-header-gradient-red {
+  font-size: 60px;
+  font-weight: bold;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #ef4444, #f87171);
+}
+
+.text-header-gradient-green {
+  font-size: 60px;
+  font-weight: bold;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #16a34a, #86efac);
+}
+
+.text-header-gradient-yellow {
+  font-size: 60px;
+  font-weight: bold;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #fbbf24, #fde68a);
+}
+
+.text-header-gradient-purple {
+  font-size: 60px;
+  font-weight: bold;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #8b5cf6, #a78bfa);
+}
+
+.text-header-gradient-pink {
+  font-size: 60px;
+  font-weight: bold;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #ec4899, #f472b6);
+}
+
+.text-header-gradient-orange {
+  font-size: 60px;
+  font-weight: bold;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #fb923c, #fbbf24);
+}
+
+.text-header-gradient-cyan {
+  font-size: 60px;
+  font-weight: bold;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #06b6d4, #22d3ee);
+}
+
+.text-header-gradient-gray {
+  font-size: 60px;
+  font-weight: bold;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #374151, #4b5563);
+}
+
+.text-header-gradient-black {
+  font-size: 60px;
+  font-weight: bold;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #111827, #1f2937);
+}
+
+.text-header-gradient-white {
+  font-size: 60px;
+  font-weight: bold;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, #f9fafb, #f3f4f6);
+}
+
+/* Rainbow Text */
+.rainbow-text-gradient {
+  font-size: 8rem;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

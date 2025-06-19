@@ -73,13 +73,13 @@ const profileData: profileData[] = [
 
 const MBTICard = () => {
   return (
-    <>
-      {/* INFJ Card */}
-      <h2 className="text-4xl font-bold bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent mb-6">
+    <div className="flex flex-col gap-10 min-h-screen">
+      <h2 className="text-center text-header-gradient-green pb-4">
         MBTI Personality
       </h2>
-      <div className="grid grid-cols-2 gap-4">
-        <div className="bg-transparent border-slate-700 rounded-2xl backdrop-blur-sm">
+      <div className="grid grid-cols-2 gap-10">
+        {/* INFJ Card */}
+        <div className="bg-transparent rounded-2xl backdrop-blur-sm border ring-4 ring-white/30 hover:scale-105 hover:shadow-lg transform transition-all duration-p-10">
           <div className="flex flex-col p-10 gap-8">
             <div className="text-center relative">
               <div className="w-24 h-24 bg-gradient-to-r from-[#2EB62C] to-[#83D475] rounded-full flex items-center justify-center text-white text-2xl font-bold mb-4 mx-auto">
@@ -120,7 +120,7 @@ const MBTICard = () => {
         </div>
 
         {/* About INFJ */}
-        <div className="bg-transparent border-slate-700 rounded-2xl backdrop-blur-sm">
+        <div className="bg-transparent rounded-2xl backdrop-blur-sm border ring-4 ring-white/30 hover:scale-105 hover:shadow-lg transform transition-all duration-p-10">
           <div className="flex flex-col p-10 gap-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="p-4  bg-transparent rounded-xl">
@@ -143,7 +143,7 @@ const MBTICard = () => {
                 </ul>
               </div>
 
-              <div className="p-4 bg-transparent rounded-xl">
+              <div className="p-4 bg-transparent rounded-xl ">
                 <h4 className="font-semibold text-yellow-400 mb-3 flex items-center gap-2">
                   <BiTargetLock className="w-5 h-5" />
                   Unique Abilities
@@ -186,7 +186,7 @@ const MBTICard = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

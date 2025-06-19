@@ -6,7 +6,11 @@ import Contact from "./pages/Contact";
 import Project from "./pages/Project";
 
 // CSS
+import "./styles/font.css"
 import "./App.css";
+import "./styles/globalStyles.css"
+import "./styles/theme.css"
+import "./styles/text.css"
 import { Route, Routes } from "react-router-dom";
 import TopBar from "./component/TopBar";
 import HomeLayout from "./component/Home/HomeLayout";

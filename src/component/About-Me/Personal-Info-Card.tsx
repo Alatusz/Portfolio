@@ -17,7 +17,7 @@ const PersonalInfoCard: React.FC<PersonalInfoCardProps> = ({
 }) => {
   return (
     <>
-      <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-cyan-400 bg-clip-text text-transparent mb-6">
+      <h2 className="min-h-screen text-4xl font-bold bg-gradient-to-r from-blue-600 to-cyan-400 bg-clip-text text-transparent mb-6">
         Personal Information
       </h2>
       <div className="flex items-center gap-8">

@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Delius&display=swap");
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  font-family: "Delius", cursive;
+  overflow-x: hidden;
+}
+
+/* Design Sysytem */
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+h4 {
+  font-size: 36px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+li {
+  font-size: 16px;
+}
+
+a {
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+}
+
+input {
+  font-size: 16px;
+}
+
+select {
+  font-size: 16px;
+}
+
+label {
+  font-size: 16px;
+}
+
+span {
+  font-size: 16px;
+}
+
+i {
+  font-size: 16px;
+}
+
+b {
+  font-size: 16px;
+}

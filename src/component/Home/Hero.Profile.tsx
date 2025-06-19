@@ -27,12 +27,10 @@ const HeroProfile = () => {
       </div>
 
       {/* Animated Text */}
-      <span className="text-8xl font-bold animate-gradient-x">
-        Alatusz
-      </span>
-      <span className="text-4xl font-bold bg-gradient-to-r from-white to-blue-500 bg-clip-text text-transparent animate-fade-in-up opacity-0 animation-delay-500">
+      <h2 className="text-8xl font-bold animate-gradient-x">Alatusz</h2>
+      <h4 className="text-4xl font-bold bg-gradient-to-r from-white to-blue-500 bg-clip-text text-transparent animate-fade-in-up opacity-0 animation-delay-500">
         I'm Front-End Developer
-      </span>
+      </h4>
       <ButtonModalCustom label="ONE FOR ALL" image={OFA} />
     </div>
   );

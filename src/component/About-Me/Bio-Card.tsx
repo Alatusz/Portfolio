@@ -1,11 +1,11 @@
 // BioSection.tsx
 const BioCard = () => {
   return (
-    <>
-      <h2 className="text-4xl font-bold bg-gradient-to-r from-yellow-600 to-yellow-400 bg-clip-text text-transparent mb-4">
-        My Story
-      </h2>
-      <div className="bg-transparent border-slate-700 rounded-2xl backdrop-blur-sm mb-8">
+    <div className="max-w-3xl mx-auto flex flex-col gap-8">
+        <h2 className="text-center text-header-gradient-orange pb-4">
+          My Story
+        </h2>
+      <div className="bg-transparent rounded-2xl backdrop-blur-sm border ring-4 ring-white/30 hover:scale-105 hover:shadow-lg transform transition-all duration-p-10">
         <div className="p-6">
           <p className="text-slate-300 leading-relaxed mb-4">
             Hi! I'm Patipat Trisuk, a 21-year-old Computer Science student from
@@ -22,7 +22,7 @@ const BioCard = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

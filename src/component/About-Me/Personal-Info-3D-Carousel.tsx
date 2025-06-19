@@ -209,9 +209,9 @@ const PersonalInfo3DCarousel: React.FC = () => {
   const visibleCardIndices = getVisibleCardIndices();
 
   return (
-    <div className="bg-transparent flex flex-col items-center justify-center p-8 min-h-screen overflow-hidden">
+    <div className="bg-transparent flex flex-col items-center justify-center min-h-screen overflow-hidden">
       <div className="text-center mb-16 z-10">
-        <h1 className="text-6xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">
+        <h1 className="text-header-gradient-purple mb-4">
           Personal Information
         </h1>
         <p className="text-slate-300 text-xl">
@@ -240,10 +240,8 @@ const PersonalInfo3DCarousel: React.FC = () => {
                     <div
                       className={`
                     relative w-80 h-64 rounded-2xl p-6 shadow-2xl transform transition-all duration-300 hover:scale-105
-                    bg-gradient-to-br ${
-                      info.color
-                    } backdrop-blur-sm border border-white/20
-                    ${index === currentIndex ? "ring-4 ring-white/30" : ""}
+                    bg-gradient-to-br ${info.color} 
+                    ${index == currentIndex ? "ring-4 ring-white/30" : ""}
                   `}
                     >
                       {/* Glassmorphism overlay */}
@@ -254,9 +252,9 @@ const PersonalInfo3DCarousel: React.FC = () => {
                         <div className="mb-4 p-4 bg-white/20 rounded-full backdrop-blur-sm">
                           <IconComponent className="text-4xl" />
                         </div>
-                        <h3 className="text-lg font-semibold mb-2 opacity-90">
+                        <h5 className="text-lg font-semibold mb-2 opacity-90">
                           {info.label}
-                        </h3>
+                        </h5>
                         <p className="text-sm font-medium leading-relaxed">
                           {info.value}
                         </p>

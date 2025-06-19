@@ -2,9 +2,8 @@
 import React from "react";
 import MBTICard from "../component/About-Me/MBTI-Card";
 import BioCard from "../component/About-Me/Bio-Card";
-import InterestsCrad from "../component/About-Me/Interest-Card";
 import EducationTimeline from "../component/About-Me/Education-Timeline-Card";
-import PersonalInfo3DCarousel from "../component/About-Me/PersonalInfo3DCarousel";
+import PersonalInfo3DCarousel from "../component/About-Me/Personal-Info-3D-Carousel";
 
 const AboutMe: React.FC = () => {
   const educationTimeline = [
@@ -14,7 +13,7 @@ const AboutMe: React.FC = () => {
       level: "Bachelor's Degree",
       major: "Computer Science",
       period: "2021-2025",
-      gpa: "3.45",
+      gpa: "3.25",
     },
     {
       title: "Borai Wittayakom School",
@@ -22,7 +21,7 @@ const AboutMe: React.FC = () => {
       level: "High School",
       major: "Science Mathematics",
       period: "2015-2023",
-      gpa: "3.45",
+      gpa: "3.27",
     },
     {
       title: "Ban Tak Waeng Community School",
@@ -41,8 +40,6 @@ const AboutMe: React.FC = () => {
       <PersonalInfo3DCarousel />
       {/* <PersonalInfoCard personalInfo={personalInfo} /> */}
       <MBTICard />
-
-      <InterestsCrad />
       <EducationTimeline educationTimeline={educationTimeline} />
     </div>
   );

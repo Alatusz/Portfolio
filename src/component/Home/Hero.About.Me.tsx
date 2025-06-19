@@ -5,15 +5,15 @@ import SkillCard from "../SkillCard";
 const HeroAboutMe = () => {
   return (
     <div className="w-[1280px] mx-auto flex flex-col items-center justify-center gap-2 p-4 my-20 bg-white/10 border border-gray-200/30 rounded-2xl backdrop-blur-sm animate-slide-in-bottom opacity-0 animation-delay-700">
-      <span className="text-4xl font-bold bg-gradient-to-r from-white to-blue-500 bg-clip-text text-transparent p-6 animate-bounce-gentle">
+      <h4 className="text-4xl font-bold bg-gradient-to-r from-white to-blue-500 bg-clip-text text-transparent p-6 animate-bounce-gentle">
         About Me
-      </span>
-      <div className="grid grid-cols-2 py-6">
+      </h4>
+      <div className="grid grid-cols-2 p-8">
         <div className="w-full animate-slide-in-left opacity-0 animation-delay-900">
           <img
             src={Profile2}
             height={1000}
-            width={550}
+            width={580}
             className="hover:scale-105 transition-transform duration-500 hover:shadow-2xl rounded-4xl"
           />
         </div>
