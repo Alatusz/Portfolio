@@ -85,11 +85,10 @@ const Project = () => {
   ];
 
   const getStatusColor = (status: string) => {
-    return status === "Completed" ? "bg-green-500" : "bg-yellow-500";
+    return status == "Completed" ? "bg-green-500" : "bg-yellow-500";
   };
 
   return (
-    <div className="min-h-screen py-20 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
@@ -185,7 +184,6 @@ const Project = () => {
           ))}
         </div>
       </div>
-    </div>
   );
 };
 

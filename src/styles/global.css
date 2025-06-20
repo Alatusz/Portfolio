@@ -85,7 +85,8 @@ hr {
   backdrop-filter: blur(20px);
   border-radius: 32px;
   position: sticky;
-  top: 16px;
+  top: 20px;
+  bottom: 80px;
   z-index: 100;
   transition: all 500ms ease-in-out;
 }

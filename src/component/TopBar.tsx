@@ -26,7 +26,9 @@ const TopBar = () => {
         </div>
       </div>
       {/* Outlet */}
-      <Outlet />
+      <div className="mt-[80px]">
+        <Outlet />
+      </div>
     </>
   );
 };

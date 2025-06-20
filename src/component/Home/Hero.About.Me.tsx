@@ -6,7 +6,7 @@ import SkillCard from "../SkillCard";
 
 const HeroAboutMe = () => {
   return (
-    <div className="w-[1280px] min-h-screen mx-auto card-glassmorphism-transparent flex-col animate-slide-in-bottom animation-delay-700 opacity-0 ">
+    <div className="w-[1280px] mx-auto card-glassmorphism-transparent flex-col animate-slide-in-bottom animation-delay-700 opacity-0 ">
       <div className="grid grid-cols-2">
         <div className="padding-base animate-slide-in-left opacity-0 animation-delay-900">
           <img src={Profile2} className="h-full rounded-base shadow-2xl" />

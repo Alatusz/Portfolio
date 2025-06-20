@@ -69,7 +69,7 @@ const Experience = () => {
 
   return (
     <div className="main-card-container">
-      <div className="min-h-screen py-20 px-4">
+      <div className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16">

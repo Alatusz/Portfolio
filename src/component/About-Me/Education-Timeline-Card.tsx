@@ -23,7 +23,7 @@ const EducationTimeline: React.FC<EducationTimelineProps> = ({
   educationTimeline,
 }) => {
   return (
-    <div className="center flex-col margin-content gap-large min-h-screen">
+    <div className="center flex-col margin-content gap-large">
       <h3 className="text-center text-header-gradient-blue">
         Education Timeline
       </h3>
