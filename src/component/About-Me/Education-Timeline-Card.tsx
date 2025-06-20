@@ -23,10 +23,10 @@ const EducationTimeline: React.FC<EducationTimelineProps> = ({
   educationTimeline,
 }) => {
   return (
-    <div className="flex flex-col gap-10 min-h-screen">
-      <h2 className="text-center text-header-gradient-blue">
+    <div className="center flex-col margin-content gap-large min-h-screen">
+      <h3 className="text-center text-header-gradient-blue">
         Education Timeline
-      </h2>
+      </h3>
       <div className="relative">
         {/* Vertical Line */}
         <div className="absolute left-[35px] top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-600 via-cyan-400 to-blue-600"></div>
@@ -44,14 +44,14 @@ const EducationTimeline: React.FC<EducationTimelineProps> = ({
                     <div className="flex flex-row justify-between items-center">
                       <div className="flex items-center gap-4">
                         <LuBookOpen className="group-hover:text-blue-600 transition-colors duration-200" />
-                        <h3 className="text-xl font-bold text-slate-200 mb-2">
+                        <h5 className="text-xl font-bold text-slate-200 mb-2">
                           {item.title}
-                        </h3>
+                        </h5>
                       </div>
                       <div className="flex items-center gap-2">
-                        <span className="text-xs text-slate-400">
+                        <small className="text-slate-400">
                           {item.gpa} / 4.00
-                        </span>
+                        </small>
                         <FaRegStar className="text-yellow-300 text-2xl group-hover:hidden" />
                         <FaStar className="text-yellow-300 text-2xl hidden group-hover:block" />
                       </div>

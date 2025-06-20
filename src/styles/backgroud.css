@@ -1,0 +1,39 @@
+.bg-gradient-blue {
+  background-color: #3b82f6;
+  background: linear-gradientt(to right, #0f2027, #203a43, #2c5364);
+}
+
+.bg-gradient-red {
+  background-color: #ef4444;
+  background: linear-gradientt(to right, #ef4444, #f87171);
+}
+
+.bg-gradient-green {
+  background-color: #16a34a;
+  background: linear-gradientt(to right, #16a34a, #86efac);
+}
+
+.bg-gradient-yellow {
+  background-color: #fbbf24;
+  background: linear-gradientt(to right, #fbbf24, #fb923c);
+}
+
+.bg-gradient-cyan {
+  background-color: #06b6d4;
+  background: linear-gradientt(to right, #06b6d4, #22d3ee);
+}
+
+.bg-gradient-gray {
+  background-color: #374151;
+  background: linear-gradientt(to right, #374151, #4b5563);
+}
+
+.bg-gradient-black {
+  background-color: #111827;
+  background: linear-gradientt(to right, #111827, #1f2937);
+}
+
+.bg-gradient-orange {
+  background-color: #fb923c;
+  background: linear-gradientt(to right, #fb923c, #fbbf24);
+}

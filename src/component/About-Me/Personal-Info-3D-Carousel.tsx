@@ -18,6 +18,8 @@ import {
   FaMusic,
   FaTrophy,
   FaCloudRain,
+  FaChevronLeft,
+  FaChevronRight,
 } from "react-icons/fa";
 
 type PersonalInfo = {
@@ -209,11 +211,11 @@ const PersonalInfo3DCarousel: React.FC = () => {
   const visibleCardIndices = getVisibleCardIndices();
 
   return (
-    <div className="bg-transparent flex flex-col items-center justify-center min-h-screen overflow-hidden">
+    <div className="bg-transparent center margin-content flex-col min-h-[1000px] overflow-hidden">
       <div className="text-center mb-16 z-10">
-        <h1 className="text-header-gradient-purple mb-4">
+        <h3 className="text-header-gradient-purple mb-4">
           Personal Information
-        </h1>
+        </h3>
         <p className="text-slate-300 text-xl">
           Learn more about me and my interests
         </p>
@@ -277,19 +279,7 @@ const PersonalInfo3DCarousel: React.FC = () => {
           onClick={prevCard}
           className="p-3 bg-white/10 hover:bg-white/20 rounded-full backdrop-blur-sm border border-white/20 transition-all duration-300 text-white hover:scale-110"
         >
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M15 19l-7-7 7-7"
-            />
-          </svg>
+          <FaChevronLeft />
         </button>
 
         <div className="flex items-center gap-2">
@@ -310,19 +300,7 @@ const PersonalInfo3DCarousel: React.FC = () => {
           onClick={nextCard}
           className="p-3 bg-white/10 hover:bg-white/20 rounded-full backdrop-blur-sm border border-white/20 transition-all duration-300 text-white hover:scale-110"
         >
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M9 5l7 7-7 7"
-            />
-          </svg>
+          <FaChevronRight />
         </button>
       </div>
       {/* Card counter */}

@@ -8,7 +8,7 @@ const TopBar = () => {
 
   return (
     <>
-      <div className="top-bar-glassmorphism animate-slide-down mx-auto">
+      <div className="top-bar-glassmorphism center justify-center animate-slide-down">
         <div className="center h-full">
           <ButtonCustom label="Home" onClick={() => navigate("/")} />
           <ButtonCustom
@@ -22,8 +22,6 @@ const TopBar = () => {
           <ButtonCustom label="Skills" onClick={() => navigate("/skills")} />
           <ButtonCustom label="Contact" onClick={() => navigate("/contact")} />
           <ButtonCustom label="Project" onClick={() => navigate("/project")} />
-        </div>
-        <div className="center h-full">
           <ThemeSwitcher />
         </div>
       </div>

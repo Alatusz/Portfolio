@@ -7,11 +7,11 @@ import Project from "./pages/Project";
 
 // CSS
 import "./styles/font.css";
-import "./App.css";
-import "./styles/globalStyles.css";
+import "./styles/global.css";
 import "./styles/theme.css";
 import "./styles/text.css";
 import "./styles/animation.css";
+import "./styles/backgroud.css";
 import { Route, Routes } from "react-router-dom";
 import TopBar from "./component/TopBar";
 import HomeLayout from "./component/Home/HomeLayout";

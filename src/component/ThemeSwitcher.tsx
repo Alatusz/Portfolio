@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 const ThemeSwitcher: React.FC = () => {
-  const [theme, setTheme] = useState<number>(2);
+  const [theme, setTheme] = useState<number>(6);
 
   useEffect(() => {
     document.body.className = "";
@@ -11,8 +11,8 @@ const ThemeSwitcher: React.FC = () => {
   const themeOptions = Array.from({ length: 6 }, (_, i) => i + 1);
 
   return (
-    <div className="grid place-items-center">
-      <div className="max-w-[800px] rounded-2xl transition duration-300 hover:opacity-80 hover:scale-105">
+    <div className="grid center">
+      <div className="rounded-base transition duration-300 hover:opacity-80 hover:scale-105">
         <select
           className="p-2 rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
           value={theme}

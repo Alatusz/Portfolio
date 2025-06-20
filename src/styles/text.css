@@ -1,6 +1,5 @@
 /* Header Color Variants */
 .text-header-gradient-blue {
-  font-size: 60px;
   font-weight: bold;
   color: transparent;
   background-clip: text;
@@ -9,7 +8,6 @@
 }
 
 .text-header-gradient-red {
-  font-size: 60px;
   font-weight: bold;
   color: transparent;
   background-clip: text;
@@ -18,7 +16,6 @@
 }
 
 .text-header-gradient-green {
-  font-size: 60px;
   font-weight: bold;
   color: transparent;
   background-clip: text;
@@ -27,7 +24,6 @@
 }
 
 .text-header-gradient-yellow {
-  font-size: 60px;
   font-weight: bold;
   color: transparent;
   background-clip: text;
@@ -36,7 +32,6 @@
 }
 
 .text-header-gradient-purple {
-  font-size: 60px;
   font-weight: bold;
   color: transparent;
   background-clip: text;
@@ -45,7 +40,6 @@
 }
 
 .text-header-gradient-pink {
-  font-size: 60px;
   font-weight: bold;
   color: transparent;
   background-clip: text;
@@ -54,7 +48,6 @@
 }
 
 .text-header-gradient-orange {
-  font-size: 60px;
   font-weight: bold;
   color: transparent;
   background-clip: text;
@@ -63,7 +56,6 @@
 }
 
 .text-header-gradient-cyan {
-  font-size: 60px;
   font-weight: bold;
   color: transparent;
   background-clip: text;
@@ -72,7 +64,6 @@
 }
 
 .text-header-gradient-gray {
-  font-size: 60px;
   font-weight: bold;
   color: transparent;
   background-clip: text;
@@ -81,7 +72,6 @@
 }
 
 .text-header-gradient-black {
-  font-size: 60px;
   font-weight: bold;
   color: transparent;
   background-clip: text;
@@ -90,7 +80,6 @@
 }
 
 .text-header-gradient-white {
-  font-size: 60px;
   font-weight: bold;
   color: transparent;
   background-clip: text;
@@ -100,7 +89,6 @@
 
 /* Rainbow Text */
 .rainbow-text-gradient {
-  font-size: 8rem;
   font-weight: bold;
   background-image: linear-gradient(
     to right,
@@ -115,4 +103,10 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+.blue-pastel-gradient {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to top right, #7edff2, #a78bfa, #4f46e5);
 }

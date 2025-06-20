@@ -34,7 +34,7 @@ const AboutMe: React.FC = () => {
   ];
 
   return (
-    <div className="main-card-container">
+    <div className="gap-large">
       {/* Main Content */}
       <BioCard />
       <PersonalInfo3DCarousel />

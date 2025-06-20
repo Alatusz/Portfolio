@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <div className="p-10 h-10 card-glassmorphism">
+    <div className="card-glassmorphism-transparent center w-[1280px] min-h-screen marin-content">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolore
         saepe nihil provident est magni? Quos totam quasi cupiditate blanditiis.
